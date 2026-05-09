@@ -12,7 +12,7 @@
 > **Integrantes:**
 > - Daniel Felipe Zamora
 > - Diego Ortiz
-> - Jairo Andrés Pérez
+> - Jairo Pérez
 > - Manuel Enrique Luna
 
 ---
