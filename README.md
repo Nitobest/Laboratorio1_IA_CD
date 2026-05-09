@@ -166,33 +166,33 @@ laboratorio_drybean_ml/
 
 | ID | Historia de usuario | Prioridad | Responsable | Estado |
 |---|---|---|---|---|
-| PB-01 | Como analista, quiero cargar el dataset real para analizarlo | 🔴 Alta | Pérez, Jairo Andrés | ✅ Hecho |
-| PB-02 | Como científico de datos, quiero revisar la calidad de los datos | 🔴 Alta | Tu Nombre | ✅ Hecho |
-| PB-03 | Como equipo, queremos un modelo base para tener punto de comparación | 🔴 Alta | Zamora, Daniel Felipe | ✅ Hecho |
-| PB-04 | Como equipo, queremos mejorar el desempeño con un modelo alternativo | 🟡 Media | Zamora, Daniel Felipe | ✅ Hecho |
+| PB-01 | Como analista, quiero cargar el dataset real para analizarlo | 🔴 Alta | Jairo Pérez | ✅ Hecho |
+| PB-02 | Como científico de datos, quiero revisar la calidad de los datos | 🔴 Alta | Diego Ortiz | ✅ Hecho |
+| PB-03 | Como equipo, queremos un modelo base para tener punto de comparación | 🔴 Alta | Daniel Felipe Zamora | ✅ Hecho |
+| PB-04 | Como equipo, queremos mejorar el desempeño con un modelo alternativo | 🟡 Media | Daniel Felipe Zamora | ✅ Hecho |
 | PB-05 | Como equipo, queremos comparar modelos con métricas claras | 🔴 Alta | Todo el equipo | ✅ Hecho |
-| PB-06 | Como usuario final, quiero entender el resultado visualmente | 🟡 Media | Tu Nombre | ✅ Hecho |
-| PB-07 | Como equipo técnico, queremos reproducibilidad del modelo | 🔴 Alta | Zamora, Daniel Felipe | ✅ Hecho |
-| PB-08 | Como equipo, queremos documentación profesional del proyecto | 🔴 Alta | Luna, Manuel Enrique | ✅ Hecho |
+| PB-06 | Como usuario final, quiero entender el resultado visualmente | 🟡 Media | Diego Ortiz | ✅ Hecho |
+| PB-07 | Como equipo técnico, queremos reproducibilidad del modelo | 🔴 Alta | Daniel Felipe Zamora | ✅ Hecho |
+| PB-08 | Como equipo, queremos documentación profesional del proyecto | 🔴 Alta | Manuel Enrique Luna | ✅ Hecho |
 
 ---
 
 ## 🏃 Planeación de Sprints
 
 ### Sprint 1 — Comprensión y Preparación de Datos
-**Responsable principal:** Tu Nombre + Pérez, Jairo Andrés  
+**Responsable principal:** Diego Ortiz + Jairo Pérez
 **Duración estimada:** 1 sesión
 
 | Tarea | Responsable | Estado |
 |---|---|---|
-| Crear repositorio y estructura TDSP | Pérez, Jairo Andrés | ✅ |
+| Crear repositorio y estructura TDSP | Jairo Pérez | ✅ |
 | Configurar entorno virtual e instalar dependencias | Todo el equipo | ✅ |
-| Cargar dataset desde fuente oficial | Tu Nombre | ✅ |
-| Análisis exploratorio: forma, tipos, estadísticas | Tu Nombre | ✅ |
-| Revisar valores nulos y duplicados | Tu Nombre | ✅ |
-| Graficar distribución de clases | Tu Nombre | ✅ |
-| Separar variables predictoras y objetivo | Tu Nombre | ✅ |
-| Dividir datos en train/test (80/20, stratify) | Tu Nombre | ✅ |
+| Cargar dataset desde fuente oficial | Diego Ortiz | ✅ |
+| Análisis exploratorio: forma, tipos, estadísticas | Diego Ortiz | ✅ |
+| Revisar valores nulos y duplicados | Diego Ortiz | ✅ |
+| Graficar distribución de clases | Diego Ortiz| ✅ |
+| Separar variables predictoras y objetivo | Diego Ortiz| ✅ |
+| Dividir datos en train/test (80/20, stratify) | Diego Ortiz | ✅ |
 
 **Entregables Sprint 1:**
 - Dataset limpio guardado en `data/processed/`
@@ -207,13 +207,13 @@ laboratorio_drybean_ml/
 
 | Tarea | Responsable | Estado |
 |---|---|---|
-| Entrenar modelo baseline (Logistic Regression + Pipeline) | Zamora, Daniel Felipe | ✅ |
-| Evaluar baseline: Accuracy y F1 Macro | Zamora, Daniel Felipe | ✅ |
-| Entrenar modelo mejorado (Random Forest) | Zamora, Daniel Felipe | ✅ |
-| Evaluar Random Forest: Accuracy y F1 Macro | Zamora, Daniel Felipe | ✅ |
+| Entrenar modelo baseline (Logistic Regression + Pipeline) | Daniel Felipe Zamora | ✅ |
+| Evaluar baseline: Accuracy y F1 Macro | Daniel Felipe Zamora| ✅ |
+| Entrenar modelo mejorado (Random Forest) | Daniel Felipe Zamora| ✅ |
+| Evaluar Random Forest: Accuracy y F1 Macro | Daniel Felipe Zamora | ✅ |
 | Comparar ambos modelos en tabla | Todo el equipo | ✅ |
-| Generar matriz de confusión | Zamora, Daniel Felipe | ✅ |
-| Analizar importancia de variables | Zamora, Daniel Felipe | ✅ |
+| Generar matriz de confusión | Daniel Felipe Zamora| ✅ |
+| Analizar importancia de variables | Daniel Felipe Zamora| ✅ |
 
 **Entregables Sprint 2:**
 - Dos modelos entrenados y evaluados
@@ -228,12 +228,12 @@ laboratorio_drybean_ml/
 
 | Tarea | Responsable | Estado |
 |---|---|---|
-| Guardar modelo final con `joblib` | Zamora, Daniel Felipe | ✅ |
-| Cargar modelo y probar predicción individual | Zamora, Daniel Felipe | ✅ |
-| Crear función reutilizable `predict_bean_class()` | Zamora, Daniel Felipe | ✅ |
-| Exportar predicciones a CSV | Tu Nombre | ✅ |
-| Redactar README profesional | Luna, Manuel Enrique | ✅ |
-| Preparar evidencia Scrum ML | Pérez, Jairo Andrés | ✅ |
+| Guardar modelo final con `joblib` | Daniel Felipe Zamora| ✅ |
+| Cargar modelo y probar predicción individual | Daniel Felipe Zamora | ✅ |
+| Crear función reutilizable `predict_bean_class()` | Daniel Felipe Zamora | ✅ |
+| Exportar predicciones a CSV | Diego Ortiz| ✅ |
+| Redactar README profesional | Manuel Enrique Luna| ✅ |
+| Preparar evidencia Scrum ML | Jairo Pérez | ✅ |
 
 **Entregables Sprint 3:**
 - Modelo `.joblib` listo para reutilizar
