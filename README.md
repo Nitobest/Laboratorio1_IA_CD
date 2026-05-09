@@ -4,11 +4,16 @@
 
 ---
 
-> **Institución:** Universidad Autónoma de Occidente  
-> **Curso:** Machine Learning / Inteligencia Artificial  
-> **Dataset:** [Dry Bean Dataset — UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/602/dry+bean+dataset)  
-> **Lenguaje:** Python 3.x  
+> **Institución:** Universidad Autónoma de Occidente
+> **Curso:** Machine Learning / Inteligencia Artificial
+> **Dataset:** [Dry Bean Dataset — UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/602/dry+bean+dataset)
+> **Lenguaje:** Python 3.x
 > **Duración estimada:** 2 a 4 sesiones de laboratorio
+> **Integrantes:**
+> - Daniel Felipe Zamora
+> - Diego Ortiz
+> - Jairo Andrés Pérez
+> - Manuel Enrique Luna
 
 ---
 
