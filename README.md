@@ -145,7 +145,9 @@ laboratorio_drybean_ml/
 │       └── dry_bean_clean.csv             # Dataset limpio y transformado
 │
 ├── notebooks/
-│   └── 01_laboratorio_drybean.ipynb       # Notebook de exploración (opcional)
+│   ├── 01_sprint1_preparacion.ipynb              # Sprint 1: comprensión y preparación
+│   ├── 02_sprint2_modelado_evaluacion.ipynb      # Sprint 2: modelado y evaluación
+│   └── 03_sprint3_despliegue_documentacion.ipynb # Sprint 3: despliegue y documentación
 │
 ├── outputs/
 │   ├── models/
@@ -154,8 +156,7 @@ laboratorio_drybean_ml/
 │       ├── distribucion_clases.png        # Gráfica de balance de clases
 │       ├── matriz_confusion.png           # Matriz de confusión Random Forest
 │       ├── importancia_variables.png      # Top 10 variables más importantes
-│       ├── comparacion_modelos.csv        # Tabla comparativa de métricas
-│       └── predicciones_drybean.csv       # Predicciones reales vs predichas
+│       └── comparacion_modelos.png        # Gráfica comparativa de modelos
 │
 ├── src/
 │   └── laboratorio_drybean.py             # Script principal (18 pasos completos)
@@ -310,10 +311,14 @@ pip install -r requirements.txt
 python src/laboratorio_drybean.py
 ```
 
-### 5. (Opcional) Abrir notebook interactivo
+### 5. (Opcional) Ejecutar los notebooks por sprint
 ```bash
-jupyter notebook notebooks/01_laboratorio_drybean.ipynb
+jupyter notebook notebooks/01_sprint1_preparacion.ipynb
+jupyter notebook notebooks/02_sprint2_modelado_evaluacion.ipynb
+jupyter notebook notebooks/03_sprint3_despliegue_documentacion.ipynb
 ```
+
+> Los notebooks asumen que se ejecutan desde la **raíz del proyecto** (rutas relativas tipo `data/processed/...`).
 
 ---
 
@@ -325,8 +330,7 @@ jupyter notebook notebooks/01_laboratorio_drybean.ipynb
 | `outputs/reports/distribucion_clases.png` | Gráfica de balance de clases |
 | `outputs/reports/matriz_confusion.png` | Matriz de confusión del mejor modelo |
 | `outputs/reports/importancia_variables.png` | Top 10 variables más importantes |
-| `outputs/reports/comparacion_modelos.csv` | Tabla con Accuracy y F1 Macro |
-| `outputs/reports/predicciones_drybean.csv` | Predicciones reales vs predichas |
+| `outputs/reports/comparacion_modelos.png` | Gráfica comparativa de Accuracy y F1 Macro |
 | `outputs/models/random_forest_drybean.joblib` | Modelo Random Forest serializado |
 
 ---
